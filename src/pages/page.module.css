@@ -1,0 +1,158 @@
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: auto;
+  background-color: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainContent {
+  background-color: #ffffff;
+  box-shadow: 6px 6px 20px;
+}
+
+.about {
+  background-color: #ffdb37;
+  padding: 30px 60px;
+}
+
+.aboutName {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.aboutSecondName {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.aboutPosition {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.aboutDickription {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 400px;
+}
+
+.infoWraper {
+  padding: 20px 40px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.education {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.education_position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 6px;
+}
+
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+
+.sidebar {
+  background-color: #1b1b1b;
+  width: 370px;
+  height: 1400px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.contakts {
+  background-color: rgba(56, 54, 29, 1);
+  padding: 34px;
+}
+
+.contaktsList {
+  margin-bottom: 10px;
+}
+
+.skils {
+  margin-left: 40px;
+}
+
+.skilsTitle {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.skilsList {
+  margin-bottom: 10px;
+  list-style: inside;
+}
+
+.experienceList {
+}
+
+.experienceItem {
+}
+
+.experienceTitle {
+  text-transform: uppercase;
+  text-align: justify;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.experienceSpan {
+  padding-left: 300px;
+}
+
+.link {
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  padding-left: 12px;
+}
+
+.linkWraper {
+  padding-left: 250px;
+}
