@@ -10,7 +10,7 @@ export default function About() {
           <span className={s.aboutSeconName}>Kruzhylko</span>
         </h1>
         <h2 className={s.aboutPosition}>
-          J u n i o r  F r o n t - E n d  d e v e l o p e r  ( R e a c t J S )
+          Junior Front - End developer (React JS)
         </h2>
 
         <p className={s.aboutDickription}>
