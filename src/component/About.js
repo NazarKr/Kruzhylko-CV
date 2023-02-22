@@ -14,12 +14,20 @@ export default function About() {
         </h2>
 
         <p className={s.aboutDickription}>
-          I am a Front-End developer. I am looking for a job as a Junior
+          I am a Front-End developer and I looking for a job as a Junior
           Front-End (ReactJS) developer in a friendly team to implement projects
-          that change the world. I have strong knowledge of HTML, CSS,
-          JavaScript, and React. Also, I have hands-on experience in following
-          Agile /Scrum methodology when working in a team. I am a fast learner,
-          responsible, and ready for difficult tasks.
+          that change the world.
+          <br />I am passionate about being part of the creative process of solutions
+          to the different challenges through analysis, meticulous, neat and
+          quality construction to implement the best product that is required.
+          <br />I have strong knowledge of HTML, CSS, JavaScript, and React.
+          Also, I have hands-on experience in following Agile /Scrum methodology
+          when working in a team. Regarding my qualities, I can mention the fact
+          that I am very dedicated, with a strong sense of duty and
+          responsibility in each job entrusted to me, assuming a cooperative and
+          adaptable attitude in the use of different technological tools. I have
+          a great motivation to learn and acquire new knowledge in order to be
+          able to contribute in any work setting.
         </p>
       </div>
 
@@ -102,11 +110,7 @@ export default function About() {
         </div>
       </div>
 
-
-
       <Conect />
-      
     </div>
   );
-
 }
