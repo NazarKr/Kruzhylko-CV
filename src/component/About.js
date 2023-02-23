@@ -17,9 +17,10 @@ export default function About() {
           I am a Front-End developer and I looking for a job as a Junior
           Front-End (ReactJS) developer in a friendly team to implement projects
           that change the world.
-          <br />I am passionate about being part of the creative process of solutions
-          to the different challenges through analysis, meticulous, neat and
-          quality construction to implement the best product that is required.
+          <br />I am passionate about being part of the creative process of
+          solutions to the different challenges through analysis, meticulous,
+          neat and quality construction to implement the best product that is
+          required.
           <br />I have strong knowledge of HTML, CSS, JavaScript, and React.
           Also, I have hands-on experience in following Agile /Scrum methodology
           when working in a team. Regarding my qualities, I can mention the fact
@@ -33,29 +34,14 @@ export default function About() {
 
       <div className={s.infoWraper}>
         <div>
-          <h3 className={s.title}>Education</h3>
-          <h4 className={s.education}>GoIT Full Stack developer</h4>
-          <h4 className={s.education_position}>
-            There I have acquired knowledge of Full-stack developer
-          </h4>
-          <p className={s.period}>2022 — 2023</p>
-
-          <h4 className={s.education}>Lviv State Academy of Finance</h4>
-          <h4 className={s.education_position}>
-            Master's degree, Accounting and Audit
-          </h4>
-          <p className={s.period}>2008 - 2010</p>
-        </div>
-
-        <div>
-          <h3 className={s.title}>Experience</h3>
+          <h3 className={s.title}>Project Experience</h3>
           <ul className={s.experienceList}>
             <li className={s.experienceItem}>
               <h4 className={s.experienceTitle}>
                 Contact book - ReactJS
                 <span className={s.experienceSpan}>
                   <a className={s.link} href="#">
-                    Link to GitHub(Code)
+                    Link to GitHub
                   </a>
                 </span>
               </h4>
@@ -75,7 +61,7 @@ export default function About() {
                 Filmoteka (team project)
                 <span className={s.experienceSpan}>
                   <a className={s.link} href="#">
-                    Link to GitHub(Code)
+                    Link to GitHub
                   </a>
                 </span>
               </h4>
@@ -93,7 +79,7 @@ export default function About() {
                 Ice-cream (team project)
                 <span className={s.experienceSpan}>
                   <a className={s.link} href="#">
-                    Link to GitHub(Code)
+                    Link to GitHub
                   </a>
                 </span>
               </h4>
@@ -107,6 +93,21 @@ export default function About() {
               </p>
             </li>
           </ul>
+        </div>
+
+        <div>
+          <h3 className={s.title}>Education</h3>
+          <h4 className={s.education}>GoIT Full Stack developer</h4>
+          <h4 className={s.education_position}>
+            Full-stack developer
+          </h4>
+          <p className={s.period}>2022 — 2023</p>
+
+          <h4 className={s.education}>Lviv State Academy of Finance</h4>
+          <h4 className={s.education_position}>
+            Master's degree, Accounting and Audit
+          </h4>
+          <p className={s.period}>2008 - 2010</p>
         </div>
       </div>
 

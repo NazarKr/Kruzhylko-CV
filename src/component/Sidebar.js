@@ -9,7 +9,7 @@ export default function Sidebar() {
   return (
     <div>
       <aside className={s.sidebar}>
-          <Image src={Avatar} alt="avatar" width={370} height={354}></Image>
+        <Image src={Avatar} alt="avatar" width={370} height={354}></Image>
 
         <div className={s.contakts}>
           <ul>
@@ -22,16 +22,7 @@ export default function Sidebar() {
             <li className={s.contaktsList}>
               <AiOutlineMail />
               <a className={s.link} href="mailto:nazarok1990@gmail.com">
-                nazarok1990@gmail.com
-              </a>
-            </li>
-            <li className={s.contaktsList}>
-              <MdOutlineLocationOn />
-              <a
-                className={s.link}
-                href="https://goo.gl/maps/VT93x1vkDg4NJ3JZ8"
-              >
-                82100, Drogobych
+                Gmail.com
               </a>
             </li>
             <li className={s.contaktsList}>
@@ -40,13 +31,22 @@ export default function Sidebar() {
                 className={s.link}
                 href="https://linkedin.com/in/nazar-kruzhylko"
               >
-                https://linkedin.com/in/nazar-kruzhylko
+                LinkedIn
               </a>
             </li>
             <li className={s.contaktsList}>
               <BsGithub />
               <a className={s.link} href="https://github.com/NazarKr">
-                https://github.com/NazarKr
+                GitHub
+              </a>
+            </li>
+            <li className={s.contaktsList}>
+              <MdOutlineLocationOn />
+              <a
+                className={s.link}
+                href="https://goo.gl/maps/VT93x1vkDg4NJ3JZ8"
+              >
+                82100, Drogobych, Ukraine
               </a>
             </li>
           </ul>
@@ -75,8 +75,6 @@ export default function Sidebar() {
             <li className={s.skilsList}>Organizational skills</li>
             <li className={s.skilsList}>Creative thinking skills</li>
             <li className={s.skilsList}>Willingness to learn</li>
-            <li className={s.skilsList}>Problem-solving skills</li>
-            <li className={s.skilsList}>Quick learning skills</li>
           </ul>
         </div>
 
@@ -85,6 +83,7 @@ export default function Sidebar() {
           <ul>
             <li className={s.skilsList}>English - Upper-Intermediate</li>
             <li className={s.skilsList}>Ukrainian - рідна солов'їна</li>
+            <li className={s.skilsList}>rusian - i hate it</li>
           </ul>
         </div>
       </aside>
