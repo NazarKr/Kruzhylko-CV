@@ -40,7 +40,10 @@ export default function About() {
               <h4 className={s.experienceTitle}>
                 Contact book - ReactJS
                 <span className={s.experienceSpan}>
-                  <a className={s.link} href="#">
+                  <a
+                    className={s.link}
+                    href="https://nazarkr.github.io/goit-react-hw-06-phonebook/"
+                  >
                     Link to GitHub
                   </a>
                 </span>
@@ -60,7 +63,10 @@ export default function About() {
               <h4 className={s.experienceTitle}>
                 Filmoteka (team project)
                 <span className={s.experienceSpan}>
-                  <a className={s.link} href="#">
+                  <a
+                    className={s.link}
+                    href="https://viacheslavyur.github.io/Filmoteka/"
+                  >
                     Link to GitHub
                   </a>
                 </span>
@@ -78,7 +84,10 @@ export default function About() {
               <h4 className={s.experienceTitle}>
                 Ice-cream (team project)
                 <span className={s.experienceSpan}>
-                  <a className={s.link} href="#">
+                  <a
+                    className={s.link}
+                    href="https://viacheslavyur.github.io/Ice-cream/"
+                  >
                     Link to GitHub
                   </a>
                 </span>
@@ -98,9 +107,7 @@ export default function About() {
         <div>
           <h3 className={s.title}>Education</h3>
           <h4 className={s.education}>GoIT Full Stack developer</h4>
-          <h4 className={s.education_position}>
-            Full-stack developer
-          </h4>
+          <h4 className={s.education_position}>Full-stack developer</h4>
           <p className={s.period}>2022 — 2023</p>
 
           <h4 className={s.education}>Lviv State Academy of Finance</h4>

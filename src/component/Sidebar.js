@@ -26,6 +26,12 @@ export default function Sidebar() {
               </a>
             </li>
             <li className={s.contaktsList}>
+              <AiOutlineMail />
+              <a className={s.link} href="https://t.me/Kruzhylko_N">
+                Telegram
+              </a>
+            </li>
+            <li className={s.contaktsList}>
               <BsLinkedin />
               <a
                 className={s.link}
