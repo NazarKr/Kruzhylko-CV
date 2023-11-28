@@ -187,38 +187,3 @@
   flex-direction: column;
   padding: 10px;
 }
-
-.socialWraper {
-  position: relative;
-  display: inline-block; /* Дозволяє блокувати займати тільки той простір, який він займає */
-}
-
-.socialList {
-  display: none;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-.socialWraper:hover .socialList {
-  display: block;
-}
-
-.socialItem {
-  list-style: none;
-  margin-bottom: 10px;
-}
-
-.sociallink {
-  text-decoration: none;
-  color: #333; /* або інший колір тексту за вашим вибором */
-}
-
-/* Інші стилі за необхідності */
-
-.socialWraper:hover .socialList {
-  display: block;
-}
