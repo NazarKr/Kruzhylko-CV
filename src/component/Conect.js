@@ -9,33 +9,36 @@ import github from "../../public/github.png";
 export default function Conect() {
   return (
     <div>
-      <div className={s.linkWraper}>
-        <a className={s.link} href="#">
+      <div className={s.socialWraper}>
+        <p className={s.socialText}>
           Visit my social networks page to see more
-        </a>
+        </p>
       </div>
 
-      <ul className={s.conectList}>
-        <li className={s.conectItem}>
+      <ul className={s.socialList}>
+        <li className={s.socialItem}>
           <Image src={linkedin} alt="linkedin" width={120} height={120}></Image>
-          <a className={s.link} href="https://linkedin.com/in/nazar-kruzhylko">
+          <a
+            className={s.sociallink}
+            href="https://linkedin.com/in/nazar-kruzhylko"
+          >
             Linkedin
           </a>
         </li>
 
-        <li className={s.conectItem}>
+        <li className={s.socialItem}>
           <Image src={facebook} alt="facebook" width={120} height={120}></Image>
           <a
-            className={s.link}
+            className={s.sociallink}
             href="https://www.facebook.com/profile.php?id=100000140926887"
           >
             Facebook
           </a>
         </li>
 
-        <li className={s.conectItem}>
+        <li className={s.socialItem}>
           <Image src={github} alt="github" width={120} height={120}></Image>
-          <a className={s.link} href="https://github.com/NazarKr">
+          <a className={s.sociallink} href="https://github.com/NazarKr">
             Github
           </a>
         </li>

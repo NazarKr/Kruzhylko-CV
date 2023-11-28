@@ -1,5 +1,5 @@
 import s from "../../pages/page.module.css";
-import { HardskillsData, languagesData, softSkillsData } from "../../lib/data";
+import { HardskillsData, languagesData, softSkillsData } from "../../lib/dataSkills";
 
 export default function Skills() {
   return (

@@ -5,11 +5,11 @@
   margin: auto;
   background-color: #e5e5e5;
   font-family: "Montserrat", sans-serif;
+  box-shadow: 6px 6px 20px;
 }
 
 .mainContent {
   background-color: #ffffff;
-  box-shadow: 6px 6px 20px;
 }
 
 .about {
@@ -67,7 +67,7 @@
   font-size: 30px;
   line-height: 27px;
   color: #000000;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .education {
@@ -84,7 +84,7 @@
   font-size: 16px;
   line-height: 17px;
   color: #000000;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .period {
@@ -93,24 +93,27 @@
   font-size: 14px;
   line-height: 15px;
   color: #a8a8a8;
-  margin-bottom: 10px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.sidebarDiv {
+  background-color: #1b1b1b;
 }
 
 .sidebar {
-  background-color: #1b1b1b;
   width: 370px;
-  height: 1400px;
   color: #ffffff;
   font-size: 16px;
 }
 
 .contakts {
   background-color: rgba(56, 54, 29, 1);
-  padding: 12px 34px;
+  padding: 34px;
 }
 
 .contaktsList {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .skils {
@@ -124,25 +127,40 @@
 }
 
 .skilsList {
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   list-style: inside;
 }
 
-/* .experienceList {
-} */
+.experienceList {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-/* .experienceItem {
-} */
+.experienceItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.experienceAbout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .experienceTitle {
   text-transform: uppercase;
   text-align: justify;
   color: #000000;
-  margin-bottom: 10px;
+  margin-left: 10px;
 }
 
-.experienceSpan {
-  padding-left: 300px;
+.experiencelink {
+  text-align: center;
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fb6d3a;
 }
 
 .link {
@@ -168,4 +186,39 @@
   display: flex;
   flex-direction: column;
   padding: 10px;
+}
+
+.socialWraper {
+  position: relative;
+  display: inline-block; /* Дозволяє блокувати займати тільки той простір, який він займає */
+}
+
+.socialList {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.socialWraper:hover .socialList {
+  display: block;
+}
+
+.socialItem {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.sociallink {
+  text-decoration: none;
+  color: #333; /* або інший колір тексту за вашим вибором */
+}
+
+/* Інші стилі за необхідності */
+
+.socialWraper:hover .socialList {
+  display: block;
 }

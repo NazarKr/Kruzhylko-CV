@@ -40,7 +40,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/lib/data.ts",
+    "src/lib/dataSkills.ts",
     "src/component/sidebar/contacts.js"
   ]
 }
