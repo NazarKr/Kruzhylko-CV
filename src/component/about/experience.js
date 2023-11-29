@@ -18,7 +18,7 @@ export default function Experience() {
                     rel="noopener noreferrer"
                     className={s.experiencelink}
                   >
-                    Link to Page
+                    <span className={s.experienceSpan}>Link to Page</span>
                   </a>
                 </Link>
               </div>
@@ -41,7 +41,7 @@ export default function Experience() {
                     rel="noopener noreferrer"
                     className={s.experiencelink}
                   >
-                    Link to Page
+                    <span className={s.experienceSpan}>Link to Page</span>
                   </a>
                 </Link>
               </div>
