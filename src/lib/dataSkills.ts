@@ -42,10 +42,3 @@ export const languagesData = [
     level: "i hate it"
   },
 ] as const;
-
-
-
-
-            // <li className={s.skilsList}>English - Upper-Intermediate</li>
-            // <li className={s.skilsList}>Ukrainian - рідна солов'їна</li>
-            // <li className={s.skilsList}>rusian - i hate it</li>
