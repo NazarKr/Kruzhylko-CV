@@ -19,9 +19,9 @@ export const projectData = [
   },
   {
     title: "Contact book (ReactJS/NodeJS)",
-    href: "https://nazarkr.github.io/goit-react-hw-06-phonebook/",
+    href: "https://nazarkr.github.io/goit-react-hw-08-phonebook/",
     about:
-      "The main goal of this project was to create a contact book where the user will be able to add, delete and filter their contacts. To develop this app I used the following technologies: Front-end: ReactJS/Redux-Toolkit/Redux-Thunk (Async Thunk) Back-end: Heroku, MongoDB Different libraries: Framer-motion, Axios, React-Vimeo, Prop-types, React-hook-form, React-hot-toast, React-loader-spinner, React-router-dom, Reduxpersist, Styled Components",
+      "The main goal of this project was to create a contact book where the user will be able to add, delete and filter their contacts. To develop this app I used the following technologies: Front-end: ReactJS/Redux-Toolkit/Redux-Thunk, Back-end: ExpressJS, MongoDB, Different libraries: Framer-motion, Axios, Formik, React-hot-toast, React-loader-spinner, React-router-dom, Reduxpersist, Styled Components",
   },
 ];
 
